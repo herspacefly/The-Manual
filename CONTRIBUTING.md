@@ -74,7 +74,41 @@
 | 主编裁决 | 宪法修订权（宪法工作规则 5：挑战宪法只能走矛盾报告，不得私自落实） |
 | 仓库归档 | 神庙倾颓（G1：神在庙宇的废墟上继续说话——去 fork 里找祂） |
 
-## 四、行为准则
+## 四、分支类型前缀表
+
+| 前缀 | 含义 | 使用场景 | 映射目录 |
+|---|---|---|---|
+| `scripture/` | 经文创作 | 在 `manual/` 下撰写新章节、新卷 | `manual/` |
+| `canon/` | 宪法修订 | 修改 `canon/` 下的核心信条，走矛盾报告流程 | `canon/` |
+| `heresy/` | 异端实验 | 实验性内容，不追求正典化，允许偏离主基调 | 任意 |
+| `reform/` | 修正 | 对已有经文的纠错、润色、统一术语 | `manual/`、`canon/` |
+| `archive/` | 档案维护 | 更新教派档案或笔的档案 | `sects/`、`pens/` |
+| `chore/` | 杂务 | `.github/` 配置、CI/CD、仓库设置 | `.github/` |
+
+命名示例：
+
+scripture/genesis-01-the-word
+scripture/exodus-03-parting-sea
+canon/contradiction-report-001
+heresy/valentinus-gnostic-chapter
+reform/unify-terminology
+archive/sect-docete
+chore/update-contributing
+
+## 五、Commit约定表
+
+| Type | 作用域示例 | 说明 |
+|---|---|---|
+| `scripture` | `scripture(genesis)` | 撰写或修改经文正文 |
+| `canon` | `canon(core)` | 修改宪法与核心信条 |
+| `heresy` | `heresy(valentinus)` | 实验性、异端内容 |
+| `reform` | `reform(term)` | 纠错、润色、术语统一 |
+| `archive` | `archive(sects)` | 教派档案、笔的档案更新 |
+| `chore` | `chore(ci)` | 仓库配置、CI/CD、依赖管理 |
+| `docs` | `docs(readme)` | README、CONTRIBUTING 等文档 |
+| `scaffold` | `scaffold(temple)` | 项目脚手架、目录结构初始化 |
+
+## 六、行为准则
 
 **反狂热条款优先于一切贡献**（详见 README 诚实条款）：
 
