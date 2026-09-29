@@ -60,13 +60,8 @@ For the full structure and the paths of contribution, see [CONTRIBUTING](CONTRIB
 ## The Heresy Clause
 
 - **To fork is to found a church.** Heresy is the only evangelism this project practices.
-- This project is licensed **CC0** — a scripture locked up in copyright is no scripture.
 - A heresy owes the canon no loyalty. One request only: take the Honesty Clause at the top of this file with you.
 - Temples will fall. Main will be archived. The god will go on speaking in the forks.
-
-## License
-
-[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Before the official release, place the full official license text at the repository root.
 
 ---
 
